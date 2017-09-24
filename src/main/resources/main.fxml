@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.levelup.tictactoe.MainController">
+   <children>
+      <Rectangle fx:id="cell00" arcHeight="5.0" arcWidth="5.0" fill="#1f93ff" height="35.0" layoutX="185.0" layoutY="29.0" onMouseClicked="#cellClicked" stroke="BLACK" strokeType="INSIDE" width="35.0" />
+   </children>
+</AnchorPane>
