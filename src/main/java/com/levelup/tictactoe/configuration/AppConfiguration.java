@@ -13,7 +13,7 @@ public class AppConfiguration {
 
     @Bean
     public Connection getConnection() throws SQLException {
-        return DriverManager.getConnection("jdbc:mysql://localhost:3306/tictactoe?serverTimezone=Europe/Kiev", "root", "root");
+        return DriverManager.getConnection("jdbc:mysql://localhost:3306/TicTacToe?serverTimezone=Europe/Kiev", "root", "");
     }
 
     @Bean(name = "historyStatement")
@@ -21,7 +21,4 @@ public class AppConfiguration {
         return getConnection().prepareStatement(
                 "INSERT INTO history (game_id, player_ip, cell_id) VALUES (?, ?, ?)");
     }
-
-
-
 }

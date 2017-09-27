@@ -4,6 +4,7 @@ import com.levelup.tictactoe.service.Game;
 import javafx.fxml.FXML;
 import javafx.scene.Node;
 import javafx.scene.paint.Color;
+import javafx.scene.paint.Paint;
 import javafx.scene.shape.Rectangle;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;

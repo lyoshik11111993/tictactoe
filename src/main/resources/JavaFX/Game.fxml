@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Rectangle?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.112" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.levelup.tictactoe.controller.GameController">
+   <children>
+      <Pane prefHeight="320.0" prefWidth="600.0">
+         <children>
+            <Rectangle fx:id="cell20" arcHeight="5.0" arcWidth="5.0" fill="#f8f8f8" height="100.0" layoutX="150.0" layoutY="214.0" onMouseClicked="#doTurn" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+            <Rectangle fx:id="cell21" arcHeight="5.0" arcWidth="5.0" fill="#f8f8f8" height="100.0" layoutX="250.0" layoutY="214.0" onMouseClicked="#doTurn" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+            <Rectangle fx:id="cell22" arcHeight="5.0" arcWidth="5.0" fill="#f8f8f8" height="100.0" layoutX="350.0" layoutY="214.0" onMouseClicked="#doTurn" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+            <Rectangle fx:id="cell01" arcHeight="5.0" arcWidth="5.0" fill="#f8f8f8" height="100.0" layoutX="150.0" layoutY="114.0" onMouseClicked="#doTurn" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+            <Rectangle fx:id="cell11" arcHeight="5.0" arcWidth="5.0" fill="#f8f8f8" height="100.0" layoutX="250.0" layoutY="114.0" onMouseClicked="#doTurn" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+            <Rectangle fx:id="cell12" arcHeight="5.0" arcWidth="5.0" fill="#f8f8f8" height="100.0" layoutX="350.0" layoutY="114.0" onMouseClicked="#doTurn" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+            <Rectangle fx:id="cell00" arcHeight="5.0" arcWidth="5.0" fill="#f8f8f8" height="100.0" layoutX="150.0" layoutY="14.0" onMouseClicked="#doTurn" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+            <Rectangle fx:id="cell10" arcHeight="5.0" arcWidth="5.0" fill="#f8f8f8" height="100.0" layoutX="250.0" layoutY="14.0" onMouseClicked="#doTurn" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+            <Rectangle fx:id="cell20" arcHeight="5.0" arcWidth="5.0" fill="#f8f8f8" height="100.0" layoutX="350.0" layoutY="14.0" onMouseClicked="#doTurn" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+         </children></Pane>
+   </children>
+</AnchorPane>
